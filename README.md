@@ -31,6 +31,17 @@ MedVK is a lightweight and expressive framework for medical image classification
 ✅ Provide three variants (Tiny, Small, Base) for flexible deployment across devices and constraints.
 
 
+## 🏗️ Architecture
+
+<div align="center">
+
+![MedVK Framework](asset/fig2.png)
+*🏗️ Overall Architecture of MedVK.*
+
+</div>
+
+
+
 ### 🎯 Key Features
 
 🔀 Decoupled multi-branch design: Explicitly separates spatial continuity from channel dependency.
@@ -56,18 +67,6 @@ MedVK is a lightweight and expressive framework for medical image classification
 ✨ Provide a comprehensive ablation study and visualization analysis, validating both effectiveness and interpretability.
 
 ---
-
-## 🏗️ Architecture
-
-<div align="center">
-
-
-
-![MedVK Framework](asset/fig2.png)
-*🏗️ Overall Architecture of MedVK.*
-
-</div>
-
 
 ---
 
@@ -147,8 +146,8 @@ python test.py \
 
 <div align="center">
 
-![Grad-CAM Heatmap1](assets/fig3.png)
-![Grad-CAM Heatmap2](assets/fig4.png)
+![Grad-CAM Heatmap1](asset/fig3.png)
+![Grad-CAM Heatmap2](asset/fig4.png)
 *🔍 Grad-CAM visualization showing model attention on medical images.*
 
 </div>
