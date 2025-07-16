@@ -36,7 +36,7 @@ MedVK is a lightweight and expressive framework for medical image classification
 <div align="center">
 
 ![MedVK Framework](asset/fig2.png)
-*Overall Architecture of MedVK.*
+_*Overall Architecture of MedVK.*_
 
 </div>
 
