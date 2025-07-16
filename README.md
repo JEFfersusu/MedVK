@@ -31,32 +31,32 @@ MedVK is a lightweight and expressive framework for medical image classification
 ✅ Provide three variants (Tiny, Small, Base) for flexible deployment across devices and constraints.
 
 
-## 🏗️ Architecture
+## Architecture
 
 <div align="center">
 
 ![MedVK Framework](asset/fig2.png)
-*🏗️ Overall Architecture of MedVK.*
+*Overall Architecture of MedVK.*
 
 </div>
 
 
 
-### 🎯 Key Features
+### Key Features
 
-🔀 Decoupled multi-branch design: Explicitly separates spatial continuity from channel dependency.
+Decoupled multi-branch design: Explicitly separates spatial continuity from channel dependency.
 
-🌐 Spline-driven activations: Enables data-adaptive modeling with smooth and interpretable nonlinearities.
+Spline-driven activations: Enables data-adaptive modeling with smooth and interpretable nonlinearities.
 
-⚡ Ultra-efficient: Achieves SOTA performance with up to 30× fewer GFLOPs than prior models.
+Ultra-efficient: Achieves SOTA performance with up to 30× fewer GFLOPs than prior models.
 
-🧠 Model variants: Choose from MedVK-T, MedVK-S, and MedVK-B based on your accuracy–efficiency needs.
+Model variants: Choose from MedVK-T, MedVK-S, and MedVK-B based on your accuracy–efficiency needs.
 
-📊 Robust across modalities: Validated on X-ray, ultrasound, dermatoscopy, and retinal imaging.
+Robust across modalities: Validated on X-ray, ultrasound, dermatoscopy, and retinal imaging.
 
-🔎 Interpretable: Produces focused Grad-CAM heatmaps on lesion areas with improved localization.
+Interpretable: Produces focused Grad-CAM heatmaps on lesion areas with improved localization.
 
-### 🚀 Main Contributions
+###  Main Contributions
 
 ✨ Propose KANFormer, a decoupled vision architecture with spline-enhanced branches for spatial and channel modeling.
 
@@ -70,7 +70,7 @@ MedVK is a lightweight and expressive framework for medical image classification
 
 ---
 
-## 🛠️ Installation
+##  Installation
 
 ### Prerequisites
 
@@ -91,7 +91,7 @@ pip install SimpleITK scikit-image PyWavelets==1.4.1
 
 ---
 
-## 📊 Performance Results
+##  Performance Results
 
 MedVK achieves state-of-the-art performance across multiple medical imaging benchmarks. Results shown as **Tiny version** / **Large version**.
 
@@ -114,7 +114,7 @@ MedVK achieves state-of-the-art performance across multiple medical imaging benc
 
 ---
 
-## 🚀 Quick Start
+##  Quick Start
 
 ### Training Your Model
 
@@ -140,7 +140,7 @@ python test.py \
 ```
 ---
 
-## 🔬 Visualization Results
+##  Visualization Results
 
 ### Attention Heatmaps
 
@@ -148,22 +148,12 @@ python test.py \
 
 ![Grad-CAM Heatmap1](asset/fig3.png)
 ![Grad-CAM Heatmap2](asset/fig4.png)
-*🔍 Grad-CAM visualization showing model attention on medical images.*
+* Grad-CAM visualization showing model attention on medical images.*
 
 </div>
 
 Our visualizations demonstrate that MedVK effectively focuses on clinically relevant regions, providing interpretable results for medical professionals.
 
-
-## 🙏 Acknowledgements
-
-We thank but not limited to following repositories for providing assistance for our research:
-
-- **[MedMamba](https://github.com/YubiaoYue/MedMamba)**
-- **[MambaOut](https://github.com/yuweihao/MambaOut)**
-- **[EfficientNetV2](https://github.com/d-li14/efficientnetv2.pytorch)**
-
-Special thanks to the medical imaging community for providing high-quality datasets and benchmarks.
 
 
 
