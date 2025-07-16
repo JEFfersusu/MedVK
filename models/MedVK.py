@@ -2,7 +2,6 @@ import torch
 import torch.nn as nn
 import torch.nn.functional as F
 import math
-from torchinfo import summary
 
 class KANLinear(torch.nn.Module):
     def __init__(
