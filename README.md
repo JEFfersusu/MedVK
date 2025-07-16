@@ -44,17 +44,17 @@ MedVK is a lightweight and expressive framework for medical image classification
 
 ### Key Features
 
-Decoupled multi-branch design: Explicitly separates spatial continuity from channel dependency.
+**Decoupled multi-branch design:** Explicitly separates spatial continuity from channel dependency.
 
-Spline-driven activations: Enables data-adaptive modeling with smooth and interpretable nonlinearities.
+**Spline-driven activations:** Enables data-adaptive modeling with smooth and interpretable nonlinearities.
 
-Ultra-efficient: Achieves SOTA performance with up to 30× fewer GFLOPs than prior models.
+**Ultra-efficient:** Achieves SOTA performance with up to 30× fewer GFLOPs than prior models.
 
-Model variants: Choose from MedVK-T, MedVK-S, and MedVK-B based on your accuracy–efficiency needs.
+**Model variants:** Choose from MedVK-T, MedVK-S, and MedVK-B based on your accuracy–efficiency needs.
 
-Robust across modalities: Validated on X-ray, ultrasound, dermatoscopy, and retinal imaging.
+**Robust across** modalities: Validated on X-ray, ultrasound, dermatoscopy, and retinal imaging.
 
-Interpretable: Produces focused Grad-CAM heatmaps on lesion areas with improved localization.
+**Interpretable:** Produces focused Grad-CAM heatmaps on lesion areas with improved localization.
 
 ###  Main Contributions
 
