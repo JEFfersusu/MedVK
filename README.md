@@ -148,7 +148,7 @@ python test.py \
 
 ![Grad-CAM Heatmap1](asset/fig3.png)
 ![Grad-CAM Heatmap2](asset/fig4.png)
-* Grad-CAM visualization showing model attention on medical images.*
+_* Grad-CAM visualization showing model attention on medical images.*_
 </div>
 
 Our visualizations demonstrate that MedVK effectively focuses on clinically relevant regions, providing interpretable results for medical professionals.
