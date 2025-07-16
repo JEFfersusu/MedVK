@@ -93,7 +93,7 @@ pip install SimpleITK scikit-image PyWavelets==1.4.1
 
 ##  Performance Results
 
-MedVK achieves state-of-the-art performance across multiple medical imaging benchmarks. Results shown as **Tiny version** / **Large version**.
+MedVK achieves state-of-the-art performance across multiple medical imaging benchmarks. Results shown as **Tiny version** / **Small version** / **Base version**.
 
 <div align="center">
 
