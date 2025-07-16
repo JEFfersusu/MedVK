@@ -97,14 +97,14 @@ MedVK achieves state-of-the-art performance across multiple medical imaging benc
 
 <div align="center">
 
-| Dataset | Classes | Imaging Modality | F1-Score (%) | AUC (%) | Kappa (%) |
-|:--------|:-------:|:--------------------------:|:----------------------:|:------------------:|:------------------:|
-| **[BloodMNIST](https://medmnist.com/)** | 8 | Blood Cell Microscope | 98.7 / 98.6 / 98.5 | 99.9 / 99.9 / 99.9 | 98.4 / 98.3 / 98.2 |
-| **[BreastMNIST](https://medmnist.com/)** | 2 | Breast Ultrasound | 78.3 / 80.9 / 79.0 | 86.3 / 86.7 / 88.1 | 57.0 / 61.9 / 58.5 |
-| **[DermaMNIST](https://medmnist.com/)** | 7 | Dermatoscope | 61.6 / 63.4 / 63.1 | 94.2 / 94.8 / 94.6 | 61.5 / 63.8 / 62.0 |
-| **[PneumoniaMNIST](https://medmnist.com/)** | 2 | Chest X-Ray | 96.6 / 97.1 / 96.6 | 99.2 / 99.6 / 99.0 | 93.1 / 94.1 / 93.1 |
-| **[RetinaMNIST](https://medmnist.com/)** | 5 | Fundus Camera | 39.9 / 36.2 / 39.9 | 76.0 / 74.3 / 75.7 | 37.3 / 37.6 / 40.0 |
-| **[CPN X-ray](https://example.com/)** | 3 | Chest X-ray | 96.3 / 96.6 / 96.8 | 99.5 / 99.5 / 99.4 | 94.4 / 94.8 / 95.1 |
+| Dataset | Classes | Imaging Modality | F1-Score (%) | OA (%) | AUC (%) | Kappa (%) |
+|:--------|:-------:|:--------------------------:|:----------------------:|:----------------------:|:------------------:|:------------------:|
+| **[BloodMNIST](https://medmnist.com/)** | 8 | Blood Cell Microscope | 98.7 / 98.6 / 98.5 | 98.6 / 98.5 / 98.5 | 99.9 / 99.9 / 99.9 | 98.4 / 98.3 / 98.2 |
+| **[BreastMNIST](https://medmnist.com/)** | 2 | Breast Ultrasound | 78.3 / 80.9 / 79.0 | 84.6 / 85.9 / 85.3 | 86.3 / 86.7 / 88.1 | 57.0 / 61.9 / 58.5 |
+| **[DermaMNIST](https://medmnist.com/)** | 7 | Dermatoscope | 61.6 / 63.4 / 63.1 | 80.3 / 81.0 / 80.9 | 94.2 / 94.8 / 94.6 | 61.5 / 63.8 / 62.0 |
+| **[PneumoniaMNIST](https://medmnist.com/)** | 2 | Chest X-Ray | 96.6 / 97.1 / 96.6 | 96.8 / 97.3 / 96.8 | 99.2 / 99.6 / 99.0 | 93.1 / 94.1 / 93.1 |
+| **[RetinaMNIST](https://medmnist.com/)** | 5 | Fundus Camera | 39.9 / 36.2 / 39.9 | 56.5 / 57.0 / 57.8 | 76.0 / 74.3 / 75.7 | 37.3 / 37.6 / 40.0 |
+| **[CPN X-ray](https://example.com/)** | 3 | Chest X-ray | 96.3 / 96.6 / 96.8 | 96.3 / 96.6 / 96.8 | 99.5 / 99.5 / 99.4 | 94.4 / 94.8 / 95.1 |
 
 </div>
 
