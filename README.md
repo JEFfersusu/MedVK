@@ -108,8 +108,10 @@ MedVK achieves state-of-the-art performance across multiple medical imaging benc
 
 </div>
 
-### 📊 Average Performance Comparison Across Six Datasets
+### Average Performance Comparison Across Six Datasets
 
+<div align="center">
+  
 | Model             | F1<sub>avg</sub> | OA<sub>avg</sub> | AUC<sub>avg</sub> | Kappa<sub>avg</sub> | Params (M) | GFLOPs |
 |-------------------|------------------|------------------|-------------------|---------------------|------------|--------|
 | FasterNet-T0      | 72.5             | 80.5             | 90.4              | 63.5                | 3.9        | 0.34   |
@@ -138,7 +140,7 @@ MedVK achieves state-of-the-art performance across multiple medical imaging benc
 | VKAN-S            | 72.5             | 79.5             | 88.5              | 64.2                | 36.2       | 0.89   |
 | MedKAN-B*         | ---              | 85.0             | 92.7              | ---                 | 24.6       | ---    |
 | **MedVK-B**       | **80.5**         | **86.8**         | **93.7**          | **75.3**            | **21.3**   | **0.38** |
-
+</div>
 
 > **Note:** Pre-trained model weights will be released soon. Stay tuned for updates!
 
