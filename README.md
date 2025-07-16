@@ -10,9 +10,7 @@
 
 ## Overview
 
-MedVK is a lightweight yet powerful framework for medical image classification, built upon a novel decoupled Kolmogorov–Arnold Network (KAN) architecture. Traditional CNNs, Transformers, and Mamba-based models suffer from rigid nonlinearities and entangled spatial-channel modeling, which limits their adaptability and interpretability, especially in complex or small-scale medical datasets.
-
-MedVK addresses these limitations by integrating spline-driven activations and a decoupled multi-branch design, enabling more flexible, expressive, and interpretable feature learning with significantly lower computational cost.
+MedVK is a lightweight and expressive framework for medical image classification, built on a decoupled Kolmogorov–Arnold Network (KAN). Unlike traditional CNNs, Transformers, or Mamba-based models that rely on fixed activations and coupled feature modeling, MedVK introduces spline-driven nonlinearities and a multi-branch design to improve adaptability, interpretability, and efficiency, especially on complex or small-scale medical datasets.
 
 **Key Challenges:**
 
