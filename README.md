@@ -97,16 +97,14 @@ MedVK achieves state-of-the-art performance across multiple medical imaging benc
 
 <div align="center">
 
-| Dataset | Classes| Imaging Modality | F1-Score (%) | AUC (%) | Kappa (%) |
-|:--------|:-------:|:------------:|:----------------:|:-------:|:---------:|
-| **[Fetal-Planes-DB](https://zenodo.org/records/3904280)** | 4 | Maternal-fetal Ultrasound | **88.8** / **90.1** | **98.8** / **98.9** | **87.8** / **88.7** |
-| **[Kvasir v2](https://datasets.simula.no/kvasir/)** | 8 | Gastrointestinal Endoscope | **88.6** / **88.7** | **99.3** / **99.2** | **86.9** / **87.1** |
-| **[BloodMNIST](https://medmnist.com/)** | 8 | Blood Cell Microscope | **98.1** / **98.9** | **99.9** / **100.0** | **98.0** / **98.6** |
-| **[DermaMNIST](https://medmnist.com/)** | 7 | Dermatoscope | **66.4** / **67.2** | **95.9** / **95.4** | **65.3** / **65.8** |
-| **[OrganCMNIST](https://medmnist.com/)** | 11 | Abdominal CT | **89.0** / **89.9** | **99.3** / **99.5** | **87.8** / **89.4** |
-| **[OrganSMNIST](https://medmnist.com/)** | 11 | Abdominal CT | **74.9** / **75.9** | **97.7** / **97.9** | **76.5** / **76.9** |
-| **[PneumoniaMNIST](https://medmnist.com/)** | 2 | Chest X-Ray | **92.8** / **95.1** | **99.1** / **98.9** | **85.6** / **90.1** |
-| **[RetinaMNIST](https://medmnist.com/)** | 5 | Fundus Camera | **42.4** / **43.5** | **74.0** / **75.7** | **37.5** / **37.5** |
+| Dataset | Classes | Imaging Modality | F1-Score (%) | AUC (%) | Kappa (%) |
+|:--------|:-------:|:--------------------------:|:----------------------:|:------------------:|:------------------:|
+| **[BloodMNIST](https://medmnist.com/)** | 8 | Blood Cell Microscope | 98.7 / 98.6 / 98.5 | 99.9 / 99.9 / 99.9 | 98.4 / 98.3 / 98.2 |
+| **[BreastMNIST](https://medmnist.com/)** | 2 | Breast Ultrasound | 78.3 / 80.9 / 79.0 | 86.3 / 86.7 / 88.1 | 57.0 / 61.9 / 58.5 |
+| **[DermaMNIST](https://medmnist.com/)** | 7 | Dermatoscope | 61.6 / 63.4 / 63.1 | 94.2 / 94.8 / 94.6 | 61.5 / 63.8 / 62.0 |
+| **[PneumoniaMNIST](https://medmnist.com/)** | 2 | Chest X-Ray | 96.6 / 97.1 / 96.6 | 99.2 / 99.6 / 99.0 | 93.1 / 94.1 / 93.1 |
+| **[RetinaMNIST](https://medmnist.com/)** | 5 | Fundus Camera | 39.9 / 36.2 / 39.9 | 76.0 / 74.3 / 75.7 | 37.3 / 37.6 / 40.0 |
+| **[CPN X-ray](https://example.com/)** | 3 | Chest X-ray | 96.3 / 96.6 / 96.8 | 99.5 / 99.5 / 99.4 | 94.4 / 94.8 / 95.1 |
 
 </div>
 
