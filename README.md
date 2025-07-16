@@ -61,11 +61,10 @@ MedVK is a lightweight and expressive framework for medical image classification
 
 <div align="center">
 
-![Bidirectional Channel Interaction Attention](assets/BCIA.png)
-*🔄 Bidirectional Channel Interaction Attention Mechanism.*
 
-![MedCTM Framework](assets/framework.png)
-*🏗️ Overall Architecture of MedCTM.*
+
+![MedVK Framework](asset/fig2.png)
+*🏗️ Overall Architecture of MedVK.*
 
 </div>
 
