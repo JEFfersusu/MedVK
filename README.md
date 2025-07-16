@@ -3,7 +3,7 @@
 **Official PyTorch implementation of "MedVK: Efficient Medical Image Classification via Decoupled Kolmogorov-Arnold Networks"**
 
 <p align="center">
-  <img src="assets/MedCTM_logo.png" width="600px" />
+  <img src="assets/fig1.png" width="600px" />
 </p>
 
 ---
