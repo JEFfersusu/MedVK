@@ -11,6 +11,7 @@ MedVK is a lightweight yet powerful framework for medical image classification, 
 MedVK addresses these limitations by integrating spline-driven activations and a decoupled multi-branch design, enabling more flexible, expressive, and interpretable feature learning with significantly lower computational cost.
 
 **Key Challenges:**
+
 ❗ Fixed activation functions in CNNs/Transformers fail to adapt to diverse lesion characteristics and subtle anatomical features.
 
 ❗ Coupled spatial-channel modeling blurs local texture and global semantic boundaries, harming fine-grained classification.
@@ -18,6 +19,7 @@ MedVK addresses these limitations by integrating spline-driven activations and a
 ❗ Overhead of attention-heavy models restricts real-world deployment in clinical or resource-constrained settings.
 
 **Our Solution:**
+
 ✅ Replace fixed activations with B-spline-based KAN nonlinearities for adaptive, data-driven representation.
 
 ✅ Design a decoupled architecture (KANFormer) that separates spatial and channel-wise modeling into independent, specialized branches.
@@ -29,15 +31,27 @@ MedVK addresses these limitations by integrating spline-driven activations and a
 
 ### 🎯 Key Features
 
-- **🏗️ Convolutional Local Feature Extraction** - Captures fine-grained spatial details.
-- **🔄 Transformer-based Bidirectional Cross-Attention** - Models global dependencies efficiently.
-- **⚡ Mamba for Linear Complexity** - Enables long sequence modeling with reduced computational cost.
+🔀 Decoupled multi-branch design: Explicitly separates spatial continuity from channel dependency.
+
+🌐 Spline-driven activations: Enables data-adaptive modeling with smooth and interpretable nonlinearities.
+
+⚡ Ultra-efficient: Achieves SOTA performance with up to 30× fewer GFLOPs than prior models.
+
+🧠 Model variants: Choose from MedVK-T, MedVK-S, and MedVK-B based on your accuracy–efficiency needs.
+
+📊 Robust across modalities: Validated on X-ray, ultrasound, dermatoscopy, and retinal imaging.
+
+🔎 Interpretable: Produces focused Grad-CAM heatmaps on lesion areas with improved localization.
 
 ### 🚀 Main Contributions
 
-1. **Bidirectional Channel Interaction Attention (BCIA)** - Dynamically fuses CNN-captured local details with Mamba-modeled global spatial dependencies.
-2. **Three-tier Cascade Architecture** - Progressively refines multi-scale features with lightweight design.
-3. **State-of-the-art Performance** - Comprehensive evaluation on 8 medical datasets demonstrates superior results.
+✨ Propose KANFormer, a decoupled vision architecture with spline-enhanced branches for spatial and channel modeling.
+
+✨ Introduce MedVK, integrating KANFormer with a lightweight KANFusion module for effective multi-stage representation fusion.
+
+✨ Achieve SOTA performance on six diverse medical image datasets while being 10–30× more efficient than transformer-based baselines.
+
+✨ Provide a comprehensive ablation study and visualization analysis, validating both effectiveness and interpretability.
 
 ---
 
