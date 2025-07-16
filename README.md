@@ -85,10 +85,6 @@ MedVK is a lightweight and expressive framework for medical image classification
 pip install torch==2.1.2 torchvision==0.16.2 torchaudio
 pip install timm==0.9.16 packaging==23.0
 
-pip install triton==2.1.0
-pip install causal-conv1d==1.0.1
-pip install mamba-ssm==1.0.1
-
 pip install pytest==8.3.5 chardet==4.0.0 yacs==0.1.8 termcolor==2.4.0
 pip install scikit-learn==1.3.2 matplotlib==3.7.1
 pip install SimpleITK scikit-image PyWavelets==1.4.1
@@ -98,7 +94,7 @@ pip install SimpleITK scikit-image PyWavelets==1.4.1
 
 ## 📊 Performance Results
 
-MedCTM achieves state-of-the-art performance across multiple medical imaging benchmarks. Results shown as **Tiny version** / **Large version**.
+MedVK achieves state-of-the-art performance across multiple medical imaging benchmarks. Results shown as **Tiny version** / **Large version**.
 
 <div align="center">
 
@@ -126,7 +122,7 @@ MedCTM achieves state-of-the-art performance across multiple medical imaging ben
 ```bash
 # Basic training command
 python train.py \
-    --model MedCTM_T \
+    --model MedVK_T \
     --dataset PneumoniaMNIST \
     --epochs 100 \
     --batch_size 32 \
@@ -139,7 +135,7 @@ python train.py \
 # Evaluate single model
 python test.py \
     --dataset PneumoniaMNIST \
-    --model MedCTM_T \
+    --model MedVK_T \
     --checkpoint ./checkpoints/best_model.pth \
     --batch_size 32
 ```
@@ -151,41 +147,13 @@ python test.py \
 
 <div align="center">
 
-![Grad-CAM Heatmaps](assets/heatmap.png)
+![Grad-CAM Heatmap1](assets/fig3.png)
+![Grad-CAM Heatmap2](assets/fig4.png)
 *🔍 Grad-CAM visualization showing model attention on medical images.*
 
 </div>
 
-Our visualizations demonstrate that MedCTM effectively focuses on clinically relevant regions, providing interpretable results for medical professionals.
-
-### Feature Space Analysis
-
-<div align="center">
-
-![t-SNE Results](assets/cluster.png)
-*📊 t-SNE visualization comparing feature representations across different models.*
-
-</div>
-
-The t-SNE analysis reveals that MedCTM learns more discriminative feature representations compared to baseline models.
-
----
-
-## 🔄 Applications & Extensions
-
-MedCTM's flexible architecture enables various medical imaging applications:
-
-### Current Applications
-- **Multi-class Medical Image Classification** - Primary focus with demonstrated SOTA results.
-- **Binary Classification Tasks** - Excellent performance on disease detection tasks.
-- **Cross-domain Medical Imaging** - Robust performance across different imaging modalities.
-
-### Future Extensions
-- **🏷️ Generic Image Classification Benchmark** – Designed to assess the model’s ability to generalize across common visual categories.
-- **🖼️ Medical Image Segmentation** - Adaptation for pixel-level anatomical structure identification.
-- **🎯 Medical Object Detection** - Extension for lesion and abnormality localization.
-
----
+Our visualizations demonstrate that MedVK effectively focuses on clinically relevant regions, providing interpretable results for medical professionals.
 
 
 ## 🙏 Acknowledgements
@@ -193,22 +161,11 @@ MedCTM's flexible architecture enables various medical imaging applications:
 We thank but not limited to following repositories for providing assistance for our research:
 
 - **[MedMamba](https://github.com/YubiaoYue/MedMamba)**
-- **[MobileFormer](https://github.com/AAboys/MobileFormer)**
 - **[MambaOut](https://github.com/yuweihao/MambaOut)**
-- **[MobileMamba](https://github.com/lewandofskee/MobileMamba)**
 - **[EfficientNetV2](https://github.com/d-li14/efficientnetv2.pytorch)**
 
 Special thanks to the medical imaging community for providing high-quality datasets and benchmarks.
 
----
-
-<div align="center">
-
-**🔬 MedCTM - Advancing Medical Image Classification through Hybrid Architecture Innovation.**
-
-Made with ❤️ for the medical AI community.
-
-</div>
 
 
 
