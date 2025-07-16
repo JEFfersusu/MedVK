@@ -97,7 +97,7 @@ MedVK achieves state-of-the-art performance across multiple medical imaging benc
 
 <div align="center">
 
-| Dataset | Classes | Imaging Modality | F1-Score (%) | OA (%) | AUC (%) | Kappa (%) |
+| Dataset | Classes | Imaging Modality | F1-Score (%) ↑| OA (%) ↑| AUC (%) ↑| Kappa (%) ↑|
 |:--------|:-------:|:--------------------------:|:----------------------:|:----------------------:|:------------------:|:------------------:|
 | **[BloodMNIST](https://medmnist.com/)** | 8 | Blood Cell Microscope | 98.7 / 98.6 / 98.5 | 98.6 / 98.5 / 98.5 | 99.9 / 99.9 / 99.9 | 98.4 / 98.3 / 98.2 |
 | **[BreastMNIST](https://medmnist.com/)** | 2 | Breast Ultrasound | 78.3 / 80.9 / 79.0 | 84.6 / 85.9 / 85.3 | 86.3 / 86.7 / 88.1 | 57.0 / 61.9 / 58.5 |
@@ -112,7 +112,7 @@ MedVK achieves state-of-the-art performance across multiple medical imaging benc
 
 <div align="center">
   
-| Model             | F1<sub>avg</sub> | OA<sub>avg</sub> | AUC<sub>avg</sub> | Kappa<sub>avg</sub> | Params (M) | GFLOPs |
+| Model             | F1-Score<sub>avg</sub> (%) ↑| OA<sub>avg</sub> (%) ↑| AUC<sub>avg</sub> (%) ↑| Kappa<sub>avg</sub> (%) ↑| Params (M) ↓| GFLOPs ↓|
 |-------------------|------------------|------------------|-------------------|---------------------|------------|--------|
 | FasterNet-T0      | 72.5             | 80.5             | 90.4              | 63.5                | 3.9        | 0.34   |
 | StarNet-S2        | 76.6             | 83.1             | 89.5              | 70.1                | 3.7        | 0.55   |
