@@ -12,6 +12,10 @@
 
 MedVK is a lightweight and expressive framework for medical image classification, built on a decoupled Kolmogorov–Arnold Network (KAN). Unlike traditional CNNs, Transformers, or Mamba-based models that rely on fixed activations and coupled feature modeling, MedVK introduces spline-driven nonlinearities and a multi-branch design to improve adaptability, interpretability, and efficiency, especially on complex or small-scale medical datasets.
 
+This work has been published in the _Pattern Recognition Letters_: https://www.sciencedirect.com/science/article/pii/S0167865526000851
+
+Anyone you share the following link with will be able to read this content: https://authors.elsevier.com/a/1mnW%7EcAmz31pJ
+
 **Key Challenges:**
 
 ❗ Fixed activation functions in CNNs/Transformers fail to adapt to diverse lesion characteristics and subtle anatomical features.
