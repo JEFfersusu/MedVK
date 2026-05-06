@@ -190,6 +190,7 @@ _* Grad-CAM visualization showing model attention on medical images.*_
 
 Our visualizations demonstrate that MedVK effectively focuses on clinically relevant regions, providing interpretable results for medical professionals.
 
+<!--
 If you think that our work is useful to your research, please cite using this BibTeX😊:
 ## Citation
 ```bibtex
@@ -205,6 +206,6 @@ doi = {https://doi.org/10.1016/j.patrec.2026.03.004},
 url = {https://www.sciencedirect.com/science/article/pii/S0167865526000851},
 author = {Weichao Pan and Xu Wang}
 }
-```
+```-->
 
 If you have any questions, please contact: panweichao01@outlook.com.
