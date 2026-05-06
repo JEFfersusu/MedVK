@@ -9,9 +9,9 @@
 ---
 
 
-This work has been published in the _Pattern Recognition Letters_: https://www.sciencedirect.com/science/article/pii/S0167865526000851
+%This work has been published in the _Pattern Recognition Letters_: https://www.sciencedirect.com/science/article/pii/S0167865526000851
 
-Anyone you share the following link with will be able to read this content: https://authors.elsevier.com/a/1mnW%7EcAmz31pJ
+%Anyone you share the following link with will be able to read this content: https://authors.elsevier.com/a/1mnW%7EcAmz31pJ
 
 ## Overview
 
